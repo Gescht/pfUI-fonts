@@ -9,6 +9,7 @@ for _, name in pairs(tocs) do
   end
 end
 
+table.insert(pfUI.gui.dropdowns.fonts, addonpath .. "\\fonts\\ABF.ttf:ABF")
 table.insert(pfUI.gui.dropdowns.fonts, addonpath .. "\\fonts\\BalooBhaina.ttf:BalooBhaina")
 table.insert(pfUI.gui.dropdowns.fonts, addonpath .. "\\fonts\\Bungee.ttf:Bungee")
 table.insert(pfUI.gui.dropdowns.fonts, addonpath .. "\\fonts\\CaesarDressing.ttf:CaesarDressing")
